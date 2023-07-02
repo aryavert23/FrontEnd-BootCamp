@@ -1,5 +1,7 @@
 # FrontEnd-BootCamp
 My learning process of Front End Development
+
+<img align="left" width="80" height="80" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
 ## JavaScript
 1. Variables
 2. Operators
