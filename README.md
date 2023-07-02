@@ -1,7 +1,7 @@
 # FrontEnd-BootCamp
 My learning process of Front End Development
 
-<img align="left" width="60" height="60" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
+<img align="left" width="40" height="40" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
 
 ## JavaScript
 1. Variables
