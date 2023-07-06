@@ -4,7 +4,7 @@ My learning process of Front End Development
 <img align="left" width="35" height="35" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
 
 ## JavaScript
-### 1. Variables
+#### 1. Variables
   - _const_: for variables that are not expected to change
   - _let_: for variables that are expected to change
 2. Operators
