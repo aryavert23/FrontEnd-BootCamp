@@ -17,3 +17,5 @@ My learning process of Front End Development
 9. JavaScript String methods
 10. JavaScript Array methods
 11. Math utilities
+
+<br>[Course by freeCodeCamp.org](https://youtu.be/zJSY8tbf_ys) 
