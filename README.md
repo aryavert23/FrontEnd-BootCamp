@@ -4,7 +4,9 @@ My learning process of Front End Development
 <img align="left" width="35" height="35" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
 
 ## JavaScript
-1. Variables
+#### 1. Variables
+  - _const_: for variables that are not expected to change
+  - _let_: for variables that are expected to change
 2. Operators
 3. Functions, Conditionals & Loops
 4. Built-in JavaScript methods
@@ -15,3 +17,5 @@ My learning process of Front End Development
 9. JavaScript String methods
 10. JavaScript Array methods
 11. Math utilities
+
+<br>[Course by freeCodeCamp.org](https://youtu.be/zJSY8tbf_ys) 
