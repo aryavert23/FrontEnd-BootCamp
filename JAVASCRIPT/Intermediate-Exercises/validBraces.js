@@ -17,7 +17,7 @@ function validBraces(braces){
     
     for(let ch of braces){
       // Check if there are keys in the string
-      if(validPairs[ch]){ 
+      if(ch in validPairs){ 
         // We push only the opening braces
         stack.push(validPairs[ch]);
       }
