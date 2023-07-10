@@ -11,6 +11,7 @@ My learning process of Front End Development
 3. Functions, Conditionals & Loops
 4. Built-in JavaScript methods
 5. Callback functions
+  - A callback function is a function that is passed as an argument to another function
 6. JavaScript primitives
 7. JavaScript dates
 8. Regular expressions
