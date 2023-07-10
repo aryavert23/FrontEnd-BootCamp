@@ -12,6 +12,12 @@ My learning process of Front End Development
 4. Built-in JavaScript methods
 5. Callback functions
   - A callback function is a function that is passed as an argument to another function
+  For example:
+  ```
+  const myArray = [2,4,5];
+  const callback = (item) => (item * 2);
+  myArray.map(callback); // Once the map function has iterated the array, the callback returns the value multiplied by 2
+  ```
 6. JavaScript primitives
 7. JavaScript dates
 8. Regular expressions
