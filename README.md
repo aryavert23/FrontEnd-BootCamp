@@ -11,8 +11,8 @@ My learning process of Front End Development
 3. Functions, Conditionals & Loops
 4. Built-in JavaScript methods
 5. Callback functions
-  - A callback function is a function that is passed as an argument to another function
-  For example:
+  <br>A callback function is a function that is passed as an argument to another function
+  <br>For example:
   ```
   const myArray = [2,4,5];
   const callback = (item) => (item * 2);
