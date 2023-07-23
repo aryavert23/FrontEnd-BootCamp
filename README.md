@@ -1,16 +1,16 @@
-# FrontEnd-BootCamp
-My learning process of Front End Development
+# FrontEnd BootCamp Course
+Just learning the basics of Front End development
 
 <img align="left" width="35" height="35" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
 
 ## JavaScript
 #### 1. Variables
-  - _const_: for variables that are not expected to change
-  - _let_: for variables that are expected to change
-2. Operators
-3. Functions, Conditionals & Loops
-4. Built-in JavaScript methods
-5. Callback functions
+  - `const`: for variables that are not expected to change
+  - `let`: for variables that are expected to change
+#### 2. Operators
+#### 3. Functions, Conditionals & Loops
+#### 4. Built-in JavaScript methods
+#### 5. Callback functions
   - A callback function is a function that is passed as an argument to another function
   <br>For example:
   ```
@@ -18,17 +18,48 @@ My learning process of Front End Development
   const callback = (item) => (item * 2);
   myArray.map(callback); // Once the map function has iterated the array, the callback returns the value multiplied by 2
   ```
-6. JavaScript primitives
-7. JavaScript dates
-8. Regular expressions
+#### 6. JavaScript primitives
+#### 7. JavaScript dates
+#### 8. Regular expressions
   - A regular expresion `RegExp` is used to match a text with a certain pattern
   <br>For example:
   ```
   const myStr = "hello world, 2023 @ more of a string";
   /^[a-z ]+,[0-9 ]+@[a-z ]+$/.exec(myStr); // We matched the exact pattern of myStr
   ```
-9. JavaScript String methods
-10. JavaScript Array methods
-11. Math utilities
+#### 9. JavaScript String methods
+  - Most used String methods
+  1) `replaceAll()`: returns a string with all matches of a `pattern` replaced by a `replacement`
+  <br>For example (in this case, the `pattern` is a `RegExp`):
+  ```
+  cons myStr = "My Dog jumped on the bed. My dog is a bad Dog";
+  const newStr = myStr.replaceAll(/Dd{1}og)/g, "cat"); // We replace cat for all Dog/dog instances
+  ```
+  2) `toUpperCase()`: returns the string value converted to uppercase
+  4) `substring()`: returns a specific substring from a string within a specified range
+  6) `trim()`: removes the whitespaces around the string and returns a new string
+  <br>For example:
+  ```
+  const myStr = "  Hello World!  ";
+  myStr.trim(); // Expected output: "Hello World!"
+  ```
+  8) `match()`: retrieves the result of matching a string against a `RegExp`
+  <br>For example
+  ```
+  const myStr = "I'm learning JavaScript";
+  const found = myStr.match(/[A-Z]g/); // Expected output: Array["I","J","S"]
+  ```
+#### 10. JavaScript Array methods
+  - Most used Array methods
+  1) `push()`,`pop()`,`shift()`,`unshift()`
+  2) `slice()`
+  3) `splice()`
+  4) `findIndex()`,`indexOf()`
+  5) `map()`
+  6) `forEach()`
+  7) `includes()`
+  8) `filter()`
+  9) `reduce()`
+#### 11. Math utilities
 
 <br>[Course by freeCodeCamp.org](https://youtu.be/zJSY8tbf_ys) 
