@@ -52,8 +52,20 @@ Just learning the basics of Front End development
 #### 10. JavaScript Array methods
   - Most used Array methods
   1) `push()`,`pop()`,`shift()`,`unshift()`
-  2) `slice()`
-  3) `splice()`
+  ```
+  const myArray = [1,2,3,4,5]
+  myArray.pop();       // Pops the element '5' out of the array
+  myArray.push(6);     // Pushes the element '6' at the end of the array
+  myArray.shift();     // Removes the first element which is '1'
+  myArray.unshift(0);  // Adds the element '0' at the beginning of the array
+  ```
+  2) `slice()`: returns the portion of an array from `start` to `end`
+   <br>For example
+  ```
+  const myArray = [1,2,3,4,5,6];
+  const myCopyArray = myArray.slice(3); // Expected output: [4.5.6]
+  ```
+  3) `splice()`: changes the content of an array by removing or replacing existing elements and/or adding new elements in place
   4) `findIndex()`,`indexOf()`
   5) `map()`
   6) `forEach()`
