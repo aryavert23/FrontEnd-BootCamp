@@ -21,6 +21,12 @@ My learning process of Front End Development
 6. JavaScript primitives
 7. JavaScript dates
 8. Regular expressions
+  - A regular expresion `RegExp` is used to match a text with a certain pattern
+  <br>For example:
+  ```
+  const myStr = "hello world, 2023 @ more of a string";
+  /^[a-z ]+,[0-9 ]+@[a-z ]+$/.exec(myStr); // We matched the exact pattern of myStr
+  ```
 9. JavaScript String methods
 10. JavaScript Array methods
 11. Math utilities
