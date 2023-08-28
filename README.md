@@ -78,7 +78,12 @@ Just learning the basics of Front End development (JS, HTML, CSS)
   const myArray = ['tree', 'sun', 'dog', 'sky'];
   const newArray = myArray.filter((elem) => elem.length == 3); // Expected output: Array['sun', 'dog', 'sky']
   ```
-  10) `reduce()`: 
+  10) `reduce()`: executes a reducer function on each element of an array
+  ```
+  const myArray = [1,2,3,4];
+  const initialValue = 0;
+  const sumArrayValue = myArray.reduce((acc, current) => acc + current, initialValue); // Expecte output: 10
+  ```
 #### 11. Math utilities
 
 <br>[Course by freeCodeCamp.org](https://youtu.be/zJSY8tbf_ys) 
