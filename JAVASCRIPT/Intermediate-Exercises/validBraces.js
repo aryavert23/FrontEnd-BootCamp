@@ -18,10 +18,10 @@ function validBraces(braces){
     for(let ch of braces){
       // Check if there are keys in the string
       if(ch in validPairs){ 
-        // We push only the opening braces
+        // We push the value of the opening braces
         stack.push(validPairs[ch]);
       }
-      // Check if the closing brace matches with the opening brace in the TOS
+      // Check if the closing brace matches with the value of the opening brace in the TOS
       else if(stack.length > 0 && stack[stack.length-1] == ch){
         // We pop from the stack since they are a valid pair
         stack.pop();
